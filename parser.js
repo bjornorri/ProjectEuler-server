@@ -48,7 +48,7 @@ module.exports = {
       problems.push({
         'id': problem_id,
         'title': title, // NOTE: this is HTML
-        'statement': statement,
+        'statement': '<div class="problem_content">' + statement + '</div>',
         'published': published,
         'solved_by_count': solved_by_count,
         'difficulty': difficulty
